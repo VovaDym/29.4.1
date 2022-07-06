@@ -90,4 +90,9 @@ int main()
 	{
 		dog1.getVector()[i]->show_talents();
 	}
+
+	for (int i = 0; i < dog1.getVector().size(); ++i)
+	{
+		delete  dog1.getVector()[i];
+	}
 }
